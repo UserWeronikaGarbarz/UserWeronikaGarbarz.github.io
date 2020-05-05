@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://immense-anchorage-79940.herokuapp.com/v1/';
-  const trelloApiRoot = 'https://immense-anchorage-79940.herokuapp.com/v1/trello/boards';
+  const trelloApiRoot = 'https://immense-anchorage-79940.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
