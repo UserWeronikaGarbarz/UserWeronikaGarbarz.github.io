@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://pure-crag-46162.herokuapp.com/v1/';
-  const trelloApiRoot = 'https://pure-crag-46162.herokuapp.com/v1/trello/';
+  const apiRoot = 'https://immense-anchorage-79940.herokuapp.com/v1/';
+  const trelloApiRoot = 'https://immense-anchorage-79940.herokuapp.com/v1/trello/boards';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
