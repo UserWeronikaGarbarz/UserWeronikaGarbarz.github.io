@@ -189,8 +189,8 @@ $(document).ready(function() {
         listId: selectedListId
       }),
       success: function(data) {
-        console.log('Card created - ' + data.shortUrl);
-        alert('Card created - ' + data.shortUrl);
+        console.log('Task sent to Trello - ' + data.shortUrl);
+        alert('Task sent to Trello - ' + data.shortUrl);
       }
     });
   }
